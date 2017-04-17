@@ -1,0 +1,10 @@
+<apex:page sidebar="false" standardController="account">
+<apex:outputField value="{!account.OwnerId}"/>
+<apex:outputField value="{!account.name}"/>
+<apex:outputField value="{!account.Industry}"/>
+
+    <apex:relatedList list="Contacts"/>
+<apex:relatedList list="Opportunities" pageSize="5"/>
+
+
+</apex:page>
