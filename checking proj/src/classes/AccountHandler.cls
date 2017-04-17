@@ -1,5 +1,6 @@
 public class AccountHandler {
 
+// this is to check the chekcing project
     public static account insertNewAccount(string AcName){
         
             try{
